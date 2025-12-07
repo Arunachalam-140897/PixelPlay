@@ -166,6 +166,10 @@ dependencies {
     implementation(libs.androidx.media3.exoplayer)
     implementation(libs.androidx.media3.ui)
     implementation(libs.androidx.media3.session)
+
+    // Media3 FFmpeg decoder (enables FLAC, ALAC, AC3/E-AC3, AC4, TrueHD → PCM)
+    implementation(libs.androidx.media3.exoplayer.ffmpeg)
+
     implementation(libs.androidx.media.router)
     implementation(libs.google.play.services.cast.framework)
     implementation(libs.androidx.media3.exoplayer.ffmpeg)
